@@ -9,7 +9,7 @@
 <title>Establecimiento Encontrada</title>
 </head>
 <body>
-	<c:set var="est" scope="request" value="${establecimiento}" />
+	<c:set var="est" scope="request" value="${estab:lecimiento}" />
 	<h1>Establecimiento Encontrada</h1>		
 		
 	<p>Id: ${est.idEstablecimiento}</p>

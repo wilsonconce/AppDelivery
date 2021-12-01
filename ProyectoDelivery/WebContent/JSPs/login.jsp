@@ -17,7 +17,7 @@
 		<section class="vh-100 gradient-custom"
 			style="background-color: #94bbe9;">
 			<h1>Bienvenido</h1>
-			
+
 			<form action="<%=request.getContextPath()%>/LoginServlet"
 				method="post">
 				<table style="with: 100%">
@@ -37,7 +37,8 @@
 					value="Ingresar" /> <input class="m-3 btn btn-lg btn-primary"
 					type="submit" value="Cancelar" />
 			</form>
+		</section>
+
 	</div>
-	</section>
 </body>
 </html>
